@@ -23,11 +23,7 @@ body {
 
   scroll-behavior: smooth;
 
-  background-color: #1a1a1a;
-
-  @include responsive(s) {
-    background-color: green;
-  }
+  background-color: $white-dark;
 }
 
 svg,
