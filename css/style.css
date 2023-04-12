@@ -710,7 +710,7 @@ header {
   content: "";
   position: absolute;
   top: 40%;
-  left: 15%;
+  left: 17%;
   width: 70%;
   height: 2px;
   transition: 0.7s ease;
@@ -719,7 +719,7 @@ header {
 .bx::before {
   content: "";
   position: absolute;
-  top: 60%;
+  top: 64%;
   left: 17%;
   width: 70%;
   height: 2px;
@@ -765,7 +765,7 @@ header {
   justify-content: center;
   opacity: 0;
   pointer-events: none;
-  transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, 0px, 0);
   transition: 1s ease;
 }
 
