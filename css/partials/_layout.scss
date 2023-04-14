@@ -72,6 +72,10 @@ $container-s: 540px;
   flex-direction: column;
 }
 
+.relative{
+  position: relative;
+}
+
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -120,7 +124,13 @@ $container-s: 540px;
   width: 25%;
 }
 
-.hidder{
+.hidden{
   overflow: hidden;
 }
+.hero{
+  height: 90vh;
 
+  @include responsive(s){
+    height: auto;
+  }
+}
