@@ -20,7 +20,7 @@ $height-card: 0.64 * $width-card;
 
   z-index: -1;
 
-  animation: flip-card 12s linear alternate,
+  animation: flip-card 12s linear infinite alternate,
     change-bg-card 12s linear infinite alternate;
 }
 
