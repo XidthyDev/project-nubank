@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <script src="./js/svg-inject.min.js"></script>
   </head>
 
@@ -144,14 +148,12 @@
 
     <!-- ===========HERO===========  -->
     <div class="bg-home boder">
-
       <img
-      src="./svg/bg-home.svg"
-      class="svg-bg-home"
-      alt=""
-      onload="SVGInject(this)"
-    />
-
+        src="./svg/bg-home.svg"
+        class="svg-bg-home"
+        alt=""
+        onload="SVGInject(this)"
+      />
     </div>
 
     <main class="container hero py-5">
@@ -212,43 +214,50 @@
         <h5>Para todos</h5>
         <h2>Completo.</h2>
         <p>
-          Resolva seu dia a dia pelo celular,sem filas, sem anuidade, sem tarifas abusivas. Cuide do seu dinheiro de um jeito simples. Somos eficientes para voccê usar seu dinheiro com o que realmente importa, sem tarifas sem manutenção.
+          Resolva seu dia a dia pelo celular,sem filas, sem anuidade, sem
+          tarifas abusivas. Cuide do seu dinheiro de um jeito simples. Somos
+          eficientes para voccê usar seu dinheiro com o que realmente importa,
+          sem tarifas sem manutenção.
         </p>
         <ul class="list mt-2">
-
           <li class="list-item bg-icon-check">
             <strong>100% gratuito.</strong>
-            <p>
-              Isso mesmo, você não paga nada para abrir a sua conta.
-            </p>
+            <p>Isso mesmo, você não paga nada para abrir a sua conta.</p>
           </li>
           <li class="list-item bg-icon-check">
             <strong>Sem taxas ou cobranças</strong>
-            <p>
-              Não se preocupe com as taxas adcionais ou anuidades.
-            </p>
+            <p>Não se preocupe com as taxas adcionais ou anuidades.</p>
           </li>
           <li class="list-item bg-icon-check">
             <strong>O melhor suporte de todos.</strong>
-            <p>
-              Segundo pesquisas, temos o melhor suporte para você.
-            </p>
+            <p>Segundo pesquisas, temos o melhor suporte para você.</p>
           </li>
         </ul>
-        <p >
+        <p>
           <a href="" class="link">Confira os beneficios.</a>
         </p>
       </div>
       <div class="flex-item3 mx-2">
-        <img src="svg/svg-people1.svg" alt="" onload="SVGInject(this)">
+        <img src="svg/svg-people1.svg" alt="" onload="SVGInject(this)" />
       </div>
       <div class="flex-item1 flex-column mx-2 my-3">
-        <img src="svg/svg-people2.svg" class="mx2 my-2" id="people2" alt="" onload="SVGInject(this)">
-        <img src="svg/svg-people3.svg" class="mx2 my-2"  alt="" onload="SVGInject(this)">
+        <img
+          src="svg/svg-people2.svg"
+          class="mx2 my-2"
+          id="people2"
+          alt=""
+          onload="SVGInject(this)"
+        />
+        <img
+          src="svg/svg-people3.svg"
+          class="mx2 my-2"
+          alt=""
+          onload="SVGInject(this)"
+        />
       </div>
     </section>
 
-     <!-- ===========SECTION BEST===========  -->
+    <!-- ===========SECTION BEST===========  -->
     <section class="container">
       <div class="best px-3 py-4">
         <div class="flex-item-auto">
@@ -256,26 +265,127 @@
           <h2>Por que Nubank?</h2>
         </div>
         <div class="best-item flex-item-auto">
-          <img src="svg/icon-cash.svg" class="icon w-auto mb-2"  alt="" onload="SVGInject(this)">
-          <p class="mt2 bold" >Conta rende mais que a poupança.</p>
+          <img
+            src="svg/icon-cash.svg"
+            class="icon w-auto mb-2"
+            alt=""
+            onload="SVGInject(this)"
+          />
+          <p class="mt2 bold">Conta rende mais que a poupança.</p>
         </div>
         <div class="best-item flex-item-auto">
-          <img src="svg/icon-transfer.svg" class="icon w-auto mb-2"  alt="" onload="SVGInject(this)">
+          <img
+            src="svg/icon-transfer.svg"
+            class="icon w-auto mb-2"
+            alt=""
+            onload="SVGInject(this)"
+          />
           <p class="mt2 bold">Transferências e TED's ilimitados.</p>
         </div>
         <div class="best-item flex-item-auto">
-          <img src="svg/icon-card.svg" class="icon w-auto mb-2"  alt="" onload="SVGInject(this)">
+          <img
+            src="svg/icon-card.svg"
+            class="icon w-auto mb-2"
+            alt=""
+            onload="SVGInject(this)"
+          />
           <p class="mt2 bold">Conta e cartão 100% gratuitos.</p>
         </div>
         <div class="best-item flex-item-auto">
-          <img src="svg/icon-phone.svg" class="icon w-auto mb-2"  alt="" onload="SVGInject(this)">
+          <img
+            src="svg/icon-phone.svg"
+            class="icon w-auto mb-2"
+            alt=""
+            onload="SVGInject(this)"
+          />
           <p class="mt2 bold">O melhor suporte 24h do Brasil.</p>
         </div>
       </div>
+    </section>
 
+    <!-- ===========SECTION SLIDER===========  -->
+
+    <section class="box">
+      <h5>Depoimentos</h5>
+      <h2>Todos amam o roxinho</h2>
+    </section>
+
+    <section class="containe-swiper">
+      <div class="swiper-container">
+        
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="photo-profile photo-1"></div>
+            <h4 class="mt-1 mb-1">Devdy tiago</h4>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              similique atque quidem, eligendi saepe magnam iste aliquam hic
+              placeat magni adipisci sed.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div class="photo-profile photo-2"></div>
+            <h4 class="mt-1 mb-1">Devdy tiago</h4>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              similique atque quidem, eligendi saepe magnam iste aliquam hic
+              placeat magni adipisci sed.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div class="photo-profile photo-3"></div>
+            <h4 class="mt-1 mb-1">Devdy tiago</h4>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              similique atque quidem, eligendi saepe magnam iste aliquam hic
+              placeat magni adipisci sed.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div class="photo-profile photo-4"></div>
+            <h4 class="mt-1 mb-1">Devdy tiago</h4>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              similique atque quidem, eligendi saepe magnam iste aliquam hic
+              placeat magni adipisci sed.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div class="photo-profile photo-5"></div>
+            <h4 class="mt-1 mb-1">Devdy tiago</h4>
+            <p class="my-1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+              similique atque quidem, eligendi saepe magnam iste aliquam hic
+              placeat magni adipisci sed.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="button-next"></div>
+      <div class="button-prev"></div>
     </section>
 
     <!-- ===========JS===========  -->
     <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBeteween: 40,
+        grabCursor: true,
+        pagination: {
+          el: 'swiper-pagination',
+          clickable: true,
+          type: 'progressbar'
+        },
+        navigation: {
+          nexEl: '.button-next',
+          prevEl: '.button-prev'
+        }
+      })
+    </script>
   </body>
 </html>
